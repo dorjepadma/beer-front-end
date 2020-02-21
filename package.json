@@ -1,0 +1,22 @@
+{
+  "name": "beer-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorjepadma/beer-front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorjepadma/beer-front-end/issues"
+  },
+  "homepage": "https://github.com/dorjepadma/beer-front-end#readme"
+}
