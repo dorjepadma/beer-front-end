@@ -7,7 +7,12 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/dorjepadma/beer-front-end/issues"
   },
-  "homepage": "https://github.com/dorjepadma/beer-front-end#readme"
+  "homepage": "https://github.com/dorjepadma/beer-front-end#readme",
+  "dependencies": {
+    "superagent": "^5.2.2"
+  }
 }
